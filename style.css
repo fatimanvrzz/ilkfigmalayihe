@@ -1,0 +1,182 @@
+  @import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body,
+  html {
+      background-color: #161513;
+  }
+
+  button {
+      align-items: center;
+      font-family: 'Protest Riot', sans-serif;
+  }
+
+  header {
+      background-color: #222222;
+  }
+
+  header nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 810px;
+      margin: 0 auto;
+  }
+
+  header .linkler {
+      display: flex;
+      align-items: center;
+      gap: 71px;
+  }
+
+  header .linkler a {
+      color: #FFF;
+      text-decoration: none;
+      font-family: 'Protest Riot', sans-serif;
+      font-weight: 600;
+      font-size: 15px;
+      text-align: center;
+  }
+
+  .umumi {
+      width: 810px;
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  .umumi .usthisse .bitmoji {
+      width: 200px;
+      margin-top: 30px;
+  }
+
+  .usthisse {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .usthisse h1,
+  p {
+      color: #FFF;
+  }
+
+  .usthisse h1 {
+      font-size: 55px;
+      font-family: 'Protest Riot', sans-serif;
+      font-weight: 800;
+  }
+
+  .usthisse span {
+      background: var(--Primary-Gradient, linear-gradient(116deg, #FF8660 71.79%, #9A33FF 95.51%));
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+
+  .usthisse .about-experience {
+      font-size: 18px;
+      font-family: 'Protest Riot', sans-serif;
+      font-weight: 300;
+      text-align: center;
+      margin: 39px;
+      color: #C5C5C5;
+  }
+
+  .usthisse .buttonlar {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      justify-content: center;
+  }
+
+  .usthisse .buttonlar button {
+      border: none;
+      border-radius: 50px;
+      padding: 16px 29px 16px 30px;
+      font-size: 21.38px;
+      font-weight: 600;
+      font-family: 'Protest Riot', sans-serif;
+  }
+
+  .experience-logos {
+      margin-top: 50px;
+      font-family: 'Poppins', serif;
+      color: #C5C5C5;
+      font-weight: 600;
+  }
+
+  .experience-logos .buttons {
+      display: flex;
+      margin-top: 40px;
+      justify-content: center;
+      gap: 50px
+  }
+
+  .projects {
+      gap: 40px;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .projects-text {
+      font-size: 50px;
+      font-family: 'Protest Riot', sans-serif;
+      margin-top: 50px;
+      margin-bottom: 50px;
+      color: brown;
+  }
+
+  .projects .project .footer {
+      display: flex;
+      background-color: #222222;
+      justify-content: space-between;
+      flex-direction: row;
+      border-radius: 0 0 20px 20px;
+      padding: 0px 20px;
+  }
+
+  .projects .project .footer .text {
+      display: flex;
+      text-align: start;
+      flex-direction: column;
+  }
+
+  .projects .project .footer .text h1 {
+      font-size: 30px;
+  }
+
+  .projects .project .footer .text h3 {
+      font-size: 20px;
+  }
+
+  .experience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 50px;
+  }
+
+  .experience-header {
+      color: darkcyan;
+      font-family: 'Protest Riot', sans-serif;
+      font-weight: 600;
+  }
+
+  .experience-card {
+      display: flex;
+      font-family: 'Protest Riot', sans-serif;
+      flex-direction: column;
+      gap: 12px;
+  }
+  .experience-card h4 {
+      color: white;
+  }
+
+  .experience-card p {
+      color: #C5C5C5;
+      text-align: start;
+  }
