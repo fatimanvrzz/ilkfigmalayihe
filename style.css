@@ -2,7 +2,7 @@
 
   * {
       margin: 0;
-      padding: 0 ;
+      padding: 0;
   }
 
   body,
@@ -172,6 +172,7 @@
       flex-direction: column;
       gap: 12px;
   }
+
   .experience-card h4 {
       color: white;
   }
