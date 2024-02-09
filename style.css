@@ -181,4 +181,16 @@
       color: #C5C5C5;
       text-align: start;
   }
+  footer{
+    background-color: #222222;
+  }
   
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 810px;
+    margin-top: 30px;
+    padding: 30px;
+  }
+ 
