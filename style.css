@@ -12,7 +12,7 @@
 
   button {
       align-items: center;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
   }
 
   header {
@@ -36,7 +36,7 @@
   header .linkler a {
       color: #FFF;
       text-decoration: none;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
       font-weight: 600;
       font-size: 15px;
       text-align: center;
@@ -66,7 +66,7 @@
 
   .usthisse h1 {
       font-size: 55px;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
       font-weight: 800;
   }
 
@@ -79,7 +79,7 @@
 
   .usthisse .about-experience {
       font-size: 18px;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
       font-weight: 300;
       text-align: center;
       margin: 39px;
@@ -99,7 +99,7 @@
       padding: 16px 29px 16px 30px;
       font-size: 21.38px;
       font-weight: 600;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
   }
 
   .experience-logos {
@@ -124,7 +124,7 @@
 
   .projects-text {
       font-size: 50px;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
       margin-top: 50px;
       margin-bottom: 50px;
       color: brown;
@@ -162,13 +162,13 @@
 
   .experience-header {
       color: darkcyan;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
       font-weight: 600;
   }
 
   .experience-card {
       display: flex;
-      font-family: 'Protest Riot', sans-serif;
+      font-family: 'Poppins', serif;
       flex-direction: column;
       gap: 12px;
   }
@@ -185,12 +185,39 @@
     background-color: #222222;
   }
   
-  footer{
+  .footerr{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    margin: 0 auto;
     width: 810px;
     margin-top: 30px;
-    padding: 30px;
+    padding: 30px 0;
   }
- 
+
+  .footerr h1{
+    padding: 20px 0;
+    color: #FFF;
+    font-family: 'Poppins', serif;
+  }
+  .footerr .textqutusu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerr mail-qutu {
+   display: flex;
+   align-items: center;
+  }
+
+  .footerr .textqutusu .mail-qutu a{
+    color: #FFF;
+    text-decoration: none;
+  }
+  .footerr .textqutusu .iconlarqutusu{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+  }
+
+  
